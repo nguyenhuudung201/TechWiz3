@@ -141,28 +141,10 @@
                         </a>
                         <div class="product-badge">
                           <ul>
-                            <li class="badge-2">10%</li>
+                      
                           </ul>
                         </div>
-                        <div class="product-hover-action product-hover-action-3">
-                          <ul>
-                            <li>
-                              <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                <i class="icon-magnifier"></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                <i class="icon-handbag"></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                <i class="icon-shuffle"></i>
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
+                        
                       </div>
                       <div class="product-info">
                         <div class="product-ratting">
@@ -224,28 +206,10 @@
                         </a>
                         <div class="product-badge">
                           <ul>
-                            <li class="badge-2">10%</li>
+                      
                           </ul>
                         </div>
-                        <div class="product-hover-action product-hover-action-3">
-                          <ul>
-                            <li>
-                              <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                <i class="icon-magnifier"></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                <i class="icon-handbag"></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                <i class="icon-shuffle"></i>
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
+                        
                       </div>
                       <div class="product-info">
                         <div class="product-ratting">
@@ -305,28 +269,10 @@
                         </a>
                         <div class="product-badge">
                           <ul>
-                            <li class="badge-2">10%</li>
+                      
                           </ul>
                         </div>
-                        <div class="product-hover-action product-hover-action-3">
-                          <ul>
-                            <li>
-                              <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                <i class="icon-magnifier"></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                <i class="icon-handbag"></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                <i class="icon-shuffle"></i>
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
+                        
                       </div>
                       <div class="product-info">
                         <div class="product-ratting">
@@ -427,28 +373,10 @@
             </a>
             <div class="product-badge">
               <ul>
-                <li class="badge-2">10%</li>
+          
               </ul>
             </div>
-            <div class="product-hover-action product-hover-action-3">
-              <ul>
-                <li>
-                  <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                    <i class="icon-magnifier"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                    <i class="icon-handbag"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                    <i class="icon-shuffle"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
+            
           </div>
           <div class="product-info">
             <div class="product-ratting">

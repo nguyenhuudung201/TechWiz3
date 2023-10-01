@@ -62,9 +62,7 @@
                                         <div class="product-img">
                                             <a href="{{URL::to('single/accessory/'.$accessory->id)}}"><img src="{{ asset('images/product/' .  $accessory->image) }} " style="max-width: 263px; height: 341px" alt="#"></a>
                                             <div class="product-badge">
-                                                <ul>
-                                                    <li class="badge-1">Hot</li>
-                                                </ul>
+                                                
                                             </div>
                                             
                                             
@@ -95,9 +93,7 @@
                                         <div class="product-img">
                                             <a href="{{URL::to('single/accessory/'.$accessory->id)}}"><img src="{{ asset('images/product/' .  $accessory->image) }} " style="width: 390px; max-heigh:400px" alt="#"></a>
                                             <div class="product-badge">
-                                                <ul>
-                                                    <li class="badge-1">Hot</li>
-                                                </ul>
+                                                
                                             </div>
                                         </div>
                                         <div class="product-info">
@@ -117,26 +113,7 @@
                                             <div class="product-brief">
                                                 <p>{{ substr($accessory->use,0,200) }}</p>
                                             </div>
-                                            <div class="product-hover-action product-hover-action-2">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="icon-magnifier"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="add-to-cart">
-                                                        <a href="#" title="Add to Cart" data-bs-toggle="modal" data-bs-target="#add_to_cart_modal">
-                                                            <span class="cart-text d-none d-xl-block">Add to Cart</span>
-                                                            <span class="d-block d-xl-none"><i class="icon-handbag"></i></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href= "" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                                                            <i class="icon-shuffle"></i>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>

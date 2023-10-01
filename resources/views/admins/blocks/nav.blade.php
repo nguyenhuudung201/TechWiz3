@@ -117,32 +117,28 @@
                 <a class="dropdown-item dropdown-notifications-item" href="#!">
                     <img class="dropdown-notifications-item-img" src="{{asset('admin_assets/images/profile-2.png')}}" />
                     <div class="dropdown-notifications-item-content">
-                        <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                        <div class="dropdown-notifications-item-content-details">Thomas Wilcox · 58m</div>
+                        
                     </div>
                 </a>
                 <!-- Example Message 2-->
                 <a class="dropdown-item dropdown-notifications-item" href="#!">
                     <img class="dropdown-notifications-item-img" src="{{asset('admin_assets/images/profile-3.png')}}" />
                     <div class="dropdown-notifications-item-content">
-                        <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                        <div class="dropdown-notifications-item-content-details">Emily Fowler · 2d</div>
+                        
                     </div>
                 </a>
                 <!-- Example Message 3-->
                 <a class="dropdown-item dropdown-notifications-item" href="#!">
                     <img class="dropdown-notifications-item-img" src="{{asset('admin_assets/images/profile-4.png')}}" />
                     <div class="dropdown-notifications-item-content">
-                        <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                        <div class="dropdown-notifications-item-content-details">Marshall Rosencrantz · 3d</div>
+                        
                     </div>
                 </a>
                 <!-- Example Message 4-->
                 <a class="dropdown-item dropdown-notifications-item" href="#!">
                     <img class="dropdown-notifications-item-img" src="{{asset('admin_assets/images/profile-5.png')}}" />
                     <div class="dropdown-notifications-item-content">
-                        <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                        <div class="dropdown-notifications-item-content-details">Colby Newton · 3d</div>
+                        
                     </div>
                 </a>
                 <!-- Footer Link-->
