@@ -27,10 +27,21 @@
                             <td>{{ $order->id }}</td>
                             <td>{{ $order->customer_id }}</td>
                             <td>${{ $order->bill }}</td>
+                            
                             <td>
-                                <div class="badge bg-warning rounded-pill">{{ $order->status }}</div>
-                                
+                                <form action="{{route('storeOrder')}}" method="POST">
+                                    @csrf
+                                    @method('post')
+                                    <select name="status" class="form-control form-control-solid"  id="" >
+                                        <option value="{{ $order->status }}">{{ $order->status }}</option>
+                                        <option value="Confirm">Confirm</option>
+                                        <option value="Cancel">Cancel</option>
+                                    </select>
+                                    <input class="display: none" type="hidden" name="id" value="{{$order->id}}">
+                                    <input  type="submit" class="btn btn-primary mt-3"  name="update" value="Update">    
+                                </form>
                             </td>
+                            
                             <td>{{ $order->created_at }}</td>
                             <td> <a href="{{URL::to('admin/detail/order/'.$order->id)}}">View</a></td>
                         </tr>

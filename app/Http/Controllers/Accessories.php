@@ -11,7 +11,7 @@ use App\Models\OrderItem;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Termwind\Components\Dd;
-
+use Illuminate\Support\Facades\Auth;
 class Accessories extends Controller
 {
 
@@ -169,5 +169,15 @@ class Accessories extends Controller
 
         $accessory->save();
         return redirect(route('adminAccessories'));
+    }
+    public function storeOrder(Request $request)
+    {
+        $item = Order::find($request->input('id'));
+        $item->status = $request->input('status');
+        if ($item->save()){
+            return redirect()->back()->with('success', 'Item update');
+        }else{
+            return redirect()->back()->with('error', 'Something Wrong');
+        }
     }
 }

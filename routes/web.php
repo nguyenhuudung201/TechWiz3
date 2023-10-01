@@ -74,7 +74,8 @@ Route::group(['prefix' => 'admin', 'middleware' => ['web', 'isAdmin']], function
 
     Route::get('/accountAdmin', [AdminController::class, 'accountAdmin'])->name('accountAdmin');
     Route::post('/updateAccountAdmin', [AdminController::class, 'updateAccountAdmin'])->name('updateAccountAdmin');
-});
+    Route::post('/storeOrder', [Accessories::class, 'storeOrder'])->name('storeOrder');
+}); 
 
 Route::get('/accessories', [Accessories::class, 'userAccessory'])->name('Accessories');
 Route::get('single/accessory/{id}', [Accessories::class, 'singleAccessory']);
