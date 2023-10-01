@@ -38,7 +38,7 @@ class Accessories extends Controller
         if (isset($request->max) && ($request->max != null)) {
             $query->where('price', '<=', $request->max);
         }
-        $accessories = $query->get();
+        $accessories =$query->latest()->paginate(7);
         return view('admins.accessory.index', compact('accessories', 'types', 'tile'));
     }
     public function updateAccessories(Accessory $accessory, Request $request)

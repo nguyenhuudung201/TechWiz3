@@ -34,7 +34,8 @@ class AdminController extends Controller
     {
         $userCount = DB::table('users')->where('role', '!=', 1)->count();
         // $users = User::where('role', '!=', 1)->get();
-        $users = User::all();
+        $users = User::paginate(12);
+        // $users=User::all();
         return view('admins.account', compact(['users', 'userCount']));
     }
 
@@ -102,9 +103,9 @@ class AdminController extends Controller
     public function categories()
     {
         $categoryCount = Category::count();
-        $categories = Category::all();
+        $categories = Category::latest()->paginate(4);
         return view('admins.category', ['categories' => $categories, 'categoryCount' => $categoryCount]);
-    }
+    }   
     public function storeCategory(Request $request)
     {
 

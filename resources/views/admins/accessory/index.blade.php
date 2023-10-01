@@ -63,6 +63,7 @@
                                 </tr>
                                 @endforeach
                             </table>
+                            {{$accessories->links('pagination::bootstrap-4')}}
                         </div>
                     </div>
                 </div>
